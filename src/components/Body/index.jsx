@@ -7,8 +7,8 @@ const Body = ({ lettersArr }) => {
   let currentValue = 0;
 
   const [inputValue, setInputValue] = useState('');
-  const progressValue = useRef(null);
-  const hiddenBg = useRef(null);
+  const progressValue = useRef("");
+  const hiddenBg = useRef("");
 
   useEffect(() => {
     // Присваиваем рефам ссылки на соответствующие элементы DOM после монтирования компонента.
