@@ -7,7 +7,6 @@ const Body = ({ lettersArr }) => {
   let currentValue = 0;
 
   const [inputValue, setInputValue] = useState('');
-  console.log(setInputValue)
   const progressValue = useRef(null);
   const hiddenBg = useRef(null);
 
