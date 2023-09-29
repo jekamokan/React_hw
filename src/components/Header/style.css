@@ -1,0 +1,25 @@
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.progress__bar {
+  width: 300px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.progress span {
+  position: inherit;
+  z-index: 3;
+}
+.progress .hidden__bg {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  z-index: 2;
+  top: 0;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
