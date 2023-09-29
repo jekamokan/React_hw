@@ -12,7 +12,7 @@ const Body = ({ lettersArr }) => {
   const hiddenBg = useRef(null);
 
   useEffect(() => {
-    // Присваиваем рефам ссылки на соответствующие элементы DOM после монтирования компонента
+    // Присваиваем рефам ссылки на соответствующие элементы DOM после монтирования компонента.
     progressValue.current = document.querySelector('.progress__bar-value');
     hiddenBg.current = document.querySelector('.hidden__bg');
   }, []);
