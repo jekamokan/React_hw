@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './style.css'
 
+const FONT_SIZE = '30px';
+const STEP = 20;
+let currentValue = 0;
+
 const Body = ({ lettersArr }) => {
-  const FONT_SIZE = '30px';
-  const STEP = 20;
-  let currentValue = 0;
 
   const [inputValue, setInputValue] = useState('');
   const progressValue = useRef("");
